@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+.coming-soon {
+  display: flex;
+  justify-content: center;
+  max-height: 100vh;
+}
+
+.container {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.countdown {
+  padding: 20px;
+  width: 80vh;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+  font-size: 2rem;
+}
+
+.labels {
+  font-style: italic;
+}
+
+.calendar-animation {
+  border: 0;
+  width: 700px;
+  height: 350px;
+}
+
+.welcome {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+
+.welcome-animation {
+  border: 0;
+  width: 700px;
+  height: 350px;
+}
+
+.button,
+.back-button {
+  width: 150px;
+  height: auto;
+  margin: 50px auto;
+  padding: 10px;
+  cursor: pointer;
+}
